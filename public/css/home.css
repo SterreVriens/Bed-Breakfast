@@ -1,0 +1,20 @@
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+.image{
+    background-color: #AE8E7F;
+    padding: 2% 4%;
+    margin-top: 5%;
+    margin-bottom: -10%;
+}
+.image img{
+    height: 500px;
+    margin-right: -35%;
+}
+
+.hero-content .text h1{
+    font-size: 2.5em;
+}
