@@ -29,9 +29,9 @@
         </div>
     </header>
     <main>
-        <div class="wrapper">
+        
             @yield('main-content')
-        </div>
+        
     </main>
     <footer>
         <div class="wrapper">

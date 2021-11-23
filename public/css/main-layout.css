@@ -43,6 +43,11 @@ header .links a{
     font-size: 1.2em;
     text-shadow: #666666 1px 2px 12px;
 }
+
+header .links a:hover{
+    text-decoration: underline;
+}
+
 header .links button{
     width: 30%;
     border-radius: 16px;
