@@ -1,0 +1,58 @@
+.admin-page{
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    grid-gap: 40px; 
+    padding-bottom: 5%;
+}
+.admin-page h2{
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #574E48;
+    padding: 3% 0;
+}
+.admin-page ul li{
+    font-family:'Roboto Slab', serif;
+    list-style: none;
+    color: #000;
+    padding: 1%;
+}
+.admin-page button{
+    border-radius: 16px;
+    width: 30%;
+    padding: 10px;
+    background-color: #BF796F;
+    border: none;
+    margin:  2%;
+
+}
+.admin-page button:hover{
+    background-color: #D1B7A8;
+}
+.admin-page button a{
+    font-size: 1.3em;
+    color: #000;
+    text-decoration: none;
+}
+
+.admin-page .info h2{
+    padding: 5% 0;
+
+}
+.admin-page .info li{
+    color: #837459;
+    padding: 4% 0;
+    font-size: 1.5em;
+}
+
+.admin-page .button button{
+    border-radius: 22px;
+    width: 50%;
+    margin-top: 75%;
+}
+
+.admin-page .button a{
+    color: #E5E5E5 ;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+}

@@ -29,3 +29,9 @@ Route::get('/onze-kamers', function () {
 Route::get('/kamer', function () {
     return view('kamer');
 });
+Route::get('/admin', function () {
+    return view('loggedin.admin');
+});
+Route::get('/user', function () {
+    return view('loggedin.user');
+});
