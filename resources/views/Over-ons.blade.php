@@ -55,18 +55,13 @@
         <div class="contact-left">
             <h3>Contact</h3>
             <div class="adress contact-item">
-                <img src="{{asset('img/house-icon-png-17.jpg')}}" alt="">
-                <p>Voorbeeldstraat 124
-                    4661AB Breda
-                </p>
+                <p class="contact-text"><img src="{{asset('img/house-icon-png-17.jpg')}}" alt=""> Voorbeeldstraat 124 4661AB Breda</p>
             </div>
             <div class="phoneNum contact-item">
-                <img src="{{asset('img/free-phone-icon-1-thumb.png')}}" alt="">
-                <p>+31 06 123 1234</p>
+                <p class="contact-text"> <img src="{{asset('img/free-phone-icon-1-thumb.png')}}" alt=""> +31 06 123 1234</p>
             </div>
-            <div class="email contact-item">
-                <img src="{{asset('img/2884956.png')}}" alt="">
-                <p>Test@b&bhetzonnetje.nl</p>
+            <div class="email contact-item"> 
+                <p class="contact-text"> <img src="{{asset('img/2884956.png')}}" alt=""> Test@b&bhetzonnetje.nl</p>
             </div>
         </div>
         <div class="contact-right">

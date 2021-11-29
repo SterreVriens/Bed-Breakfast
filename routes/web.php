@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/over-ons', function () {
     return view('Over-ons');
 });
+Route::get('/facaliteiten', function () {
+    return view('facaliteiten');
+});
+Route::get('/onze-kamers', function () {
+    return view('onze-kamers');
+});
