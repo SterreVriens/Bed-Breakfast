@@ -26,3 +26,6 @@ Route::get('/facaliteiten', function () {
 Route::get('/onze-kamers', function () {
     return view('onze-kamers');
 });
+Route::get('/kamer', function () {
+    return view('kamer');
+});

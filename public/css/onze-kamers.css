@@ -1,0 +1,51 @@
+.wrapper-rooms h2 {
+    font-size: 2.9em;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 3% 0;
+    color: #4B3D30;
+    font-weight: 600;
+}
+
+.rooms{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 40px;
+}
+.room .content{
+    border-top: 40px solid #BF796F;
+    border-left: 40px solid #BF796F;
+    background-color: #AE8E7F;
+    /* height: 450px; */
+    margin: 5%;
+}
+.room .content img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+
+}
+.room .content h3{
+    color: #574E48;
+    font-size: 3em;
+    text-align: center;
+}
+.room .content p{
+    padding: 2% 8%;
+    font-size: 1.15em;
+    color: #E5E5E5;
+}
+.room .content button{
+    border-radius: 16px;
+    width: 40%;
+    padding: 10px;
+    background-color: #D1B7A8;
+    border: none;
+    margin:  5% 8%;
+    font-size: 1em;
+}
+.room .content button a{
+    color: #FFFFFF;
+
+}
