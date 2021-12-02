@@ -15,11 +15,11 @@
                 <img src="{{asset('img/Bed_and_Breakfast-removebg-preview.png')}}" alt="">
             </div>
             <div class="links">
-                <a href="">Home</a>
-                <a href="">Over ons</a>
-                <a href="">Facaliteiten</a>
-                <a href="">Onze kamers</a>
-                <button><a href="">Login</a></button>
+                <a href="{{route('index')}}">Home</a>
+                <a href="{{route('overons')}}">Over ons</a>
+                <a href="{{route('facaliteiten')}}">Facaliteiten</a>
+                <a href="{{route('kamers.onze-kamers')}}">Onze kamers</a>
+                <button><a href="{{route('login')}}">Login</a></button>
             </div>
         </nav>
         <div class="hero">
@@ -41,10 +41,10 @@
             </div>
             <div class="list list-1">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Over ons</a></li>
-                    <li><a href="">Facaliteiten</a></li>
-                    <li><a href="">Onze kamers</a></li>
+                    <li><a href="{{route('index')}}">Home</a></li>
+                    <li><a href="{{route('overons')}}">Over ons</a></li>
+                    <li><a href="{{route('facaliteiten')}}">Facaliteiten</a></li>
+                    <li><a href="{{route('kamers.onze-kamers')}}">Onze kamers</a></li>
                 </ul>
             </div>
             <div class="list list-2">

@@ -16,7 +16,7 @@
 <div class="wrapper">
     <div class="content">
         <div class="content-header">
-            <button><a href="">Geen account?</a></button>
+            <button><a href="{{route('login')}}">Al wel een account?</a></button>
         </div>
         <div class="login">
             <h2>Register</h2>

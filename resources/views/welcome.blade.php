@@ -32,7 +32,7 @@
                         <img src="{{asset('img/c367c266f487bbd51450d5b328ad89fa.jpg')}}" alt="">
                         <h3> Donec sed interdum</h3>
                         <p> Quisque fermentum purus eu accumsan iaculis. Vivamus aliquet hendrerit aliquet. Proin elementum elit sed quam mattis tempus.</p>
-                        <button><a href="">Lees meer...</a></button>
+                        <button><a href="{{route('facaliteiten')}}">Lees meer...</a></button>
                     </div>
                 </div>
                 <div class="card">
@@ -40,7 +40,7 @@
                         <img src="{{asset('img/890476627677cb6171ab98581d258fb6.jpg')}}" alt="">
                         <h3> Donec sed interdum</h3>
                         <p> Quisque fermentum purus eu accumsan iaculis. Vivamus aliquet hendrerit aliquet. Proin elementum elit sed quam mattis tempus.</p>
-                        <button><a href="">Lees meer...</a></button>
+                        <button><a href="{{route('facaliteiten')}}">Lees meer...</a></button>
                     </div>
                 </div>
                 <div class="card">
@@ -48,7 +48,7 @@
                         <img src="{{asset('img/9c1029efc3c7603cfe4f5b007b46ecca.jpg')}}" alt="">
                         <h3> Donec sed interdum</h3>
                         <p> Quisque fermentum purus eu accumsan iaculis. Vivamus aliquet hendrerit aliquet. Proin elementum elit sed quam mattis tempus.</p>
-                        <button><a href="">Lees meer...</a></button>
+                        <button><a href="{{route('facaliteiten')}}">Lees meer...</a></button>
                     </div>
                 </div>
             </div>

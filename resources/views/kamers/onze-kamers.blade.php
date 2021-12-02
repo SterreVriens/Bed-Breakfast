@@ -23,7 +23,7 @@
                 <img src="{{ asset('img/33a2ef13fd9331064dc309b763475998.jpg')}}" alt="">
                 <h3>Robijn kamer</h3>
                 <p>Deze luxe tweepersoons kamer bevindt zich op de eerste verdieping. Deze kamer is sfeervol ingericht zodat het u aan niets ontbreekt. De kamer is voorzien van een twee tweepersoons bedden wekker radio, een garderobe kast, een tweepersoons zitje met TV en bureau om eventueel wat te kunnen schrijven, of voor uw eigen computer.</p>
-                <button><a href="">Lees meer ...</a></button>
+                <button><a href="{{route('kamer')}}">Lees meer ...</a></button>
             </div>
         </div>
         <div class="room">
