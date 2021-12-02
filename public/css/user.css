@@ -1,0 +1,76 @@
+.user-page h2{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #574E48;
+    padding: 3% 0;
+}
+.user-page ul li{
+    list-style: none;
+    color: #837459;
+    padding: 3%;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.user-page button{
+    padding: 10px;
+    background-color: #BF796F;
+    border: none;
+    border-radius: 22px;
+    width: 50%;
+    margin-top: 60%;
+}
+.user-page button:hover{
+    background-color: #D1B7A8;
+}
+.reservations{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.reservations img{
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+}
+.reservation {
+    display: flex;
+}
+.reservation .img{
+    padding-right: 4%;
+}
+.reservation h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+.reservation p{
+    color: #AE8E7F;
+    font-weight: 700;
+    padding: 1% 0;
+    font-size: 1.5em;
+}
+.reservation .p-thin{
+    font-weight: 400;
+}
+.reservation .p-price{
+    color: #574E48;
+    padding: 5%;
+}
+.reservation .p-price span{
+    margin-left: 10%;
+}
+
+.bottem{
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    padding: 5% 0;  
+}
+.bottem button a{
+    color: #E5E5E5 ;
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+}

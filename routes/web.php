@@ -24,14 +24,20 @@ Route::get('/facaliteiten', function () {
     return view('facaliteiten');
 });
 Route::get('/onze-kamers', function () {
-    return view('onze-kamers');
+    return view('kamers.onze-kamers');
 });
 Route::get('/kamer', function () {
-    return view('kamer');
+    return view('kamers.kamer');
 });
 Route::get('/admin', function () {
     return view('loggedin.admin');
 });
 Route::get('/user', function () {
     return view('loggedin.user');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
 });

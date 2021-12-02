@@ -1,0 +1,71 @@
+.content{
+    background-color: #D1B7A8;
+    margin: 5% 0;
+}
+.content .content-header button{
+    border-radius: 30px;
+    width: 20%;
+    padding: 10px;
+    background-color: #BF796F;
+    border: none;
+    margin:  2% 75%;
+    font-size: 1em;
+}
+.content .content-header button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.login{
+    padding: 2% 15% 15% 15%;
+}
+
+.content h2{
+    color: #E5E5E5;
+    font-size: 4em;
+    padding-bottom: 2%;
+}
+form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    flex-grow: calc();
+}
+form input{
+    padding: 3% 0;
+    margin: 2% 0;
+    width: 80%;
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 40px;
+    border: none;
+    color: #0000;
+    color: #837459;
+    font-size: 1.1em;
+}
+form input::placeholder{
+    font-size: 1.5em;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    border-radius: 40px;
+    width: 40%;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: #BF796F;
+    border: none;
+    font-size: 1em;
+}
+form button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.content img{
+    height: 320px;
+    margin-left: 42%;
+    margin-top: -200px;
+}
